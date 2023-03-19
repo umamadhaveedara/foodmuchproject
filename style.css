@@ -31,12 +31,19 @@
   justify-content: center;
   color: #fff;
 }
+.explore h2{
+  margin: 1em 0em;
+}
+.delivery h2{
+  margin: 1em 0em;
+}
 .btn-main {
   background-color: #c5a800;
   border: 2px solid #c5a800;
   border-radius: 6px;
   padding: 0.6em 1em;
   color: #fff;
+  margin-right: 1em;
 }
 .btn-second {
   border: 2px solid #c5a800;
@@ -54,6 +61,7 @@
 .why-heading p {
   padding-bottom: 1em;
 }
+
 .boxes {
   display: flex;
 }
@@ -158,6 +166,9 @@
   padding-right: 0.5em;
   padding-top: 0.5em;
 }
+.delivery-heading-images{
+  margin: 1em 0em;
+}
 .delivery {
   margin-top: 1em;
 }
@@ -260,5 +271,8 @@
     height: 230px;
     padding-top: 1em;
     padding-bottom: 1em;
+  }
+  .delivery-heading-images{
+    margin: 1em 0em;
   }
 }
